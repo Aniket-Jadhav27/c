@@ -1,22 +1,28 @@
 #include<stdio.h>
 int main(){
-    int a, b;
-
-    printf("enter two numbers:");
-    scanf("%d%d", & a , &b);
-
-    printf("addition=%d\n", a+b);
-
-    printf("subtraction=%d\n", a-b);
-
-    printf("multiplication=%d\n", a*b);
-
-    if(b!=0){
-        printf("division=%d\n", a/b);
+    int month;
+    printf("enter month number(1-12): ");
+    scanf("%d", &month);
     
-    } else {
-        printf("division by zero is not allowed.\n");
+    switch(month){
+        case 1 : printf("january\n"); break;
+        case 2 : printf("february\n"); break;
+        case 3 : printf("march\n"); break;
+        case 4 : printf("april\n"); break;
+        case 5 : printf("may\n"); break;
+        case 6 : printf("june\n"); break;
+        case 7 : printf("july\n"); break;
+        case 8 : printf("august\n"); break;
+        case 9 : printf("september\n"); break;
+        case 10 : printf("october\n"); break;
+        case 11 : printf("november\n"); break;
+        case 12 : printf("december\n"); break;
+        default : printf("invalid month number\n");
+    
     }
-
+    
+    
+    
     return 0;
+    
 }
