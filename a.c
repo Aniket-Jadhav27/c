@@ -14,7 +14,7 @@ int main() {
     a = b;
     b = temp;
 
-    printf("After swapping: a = %d, b = %d\n", a, b);
+    printf("After Swapping: a = %d, b = %d\n", a, b);
 
     return 0;
 }
