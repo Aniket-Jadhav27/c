@@ -15,7 +15,7 @@ int main()
 	
 	else if(a>b)
     
-		printf(" a is gerater than b :");
+		printf(" a is Gerater than b :");
    
 	
 	else
