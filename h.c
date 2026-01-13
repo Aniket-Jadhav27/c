@@ -16,7 +16,7 @@ int main() {
         largest = c;
     }
  
-    printf("The largest number is: %d\n", largest);
+    printf("The Largest number is: %d\n", largest);
 
     return 0;
 }
